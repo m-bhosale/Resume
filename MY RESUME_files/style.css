@@ -1,0 +1,58 @@
+body {
+	margin: 0px;
+}
+#body-header {
+	/* height: 65vh; */
+	margin-top: 15px;
+	margin-bottom: 15px;
+	/* background-image: url("../FirstProj_Resume/images/emile-perron-xrVDYZRGdw4-unsplash.webp"); */
+}
+#myVideo {
+	/* position: fixed; */
+	margin-top: 5%;
+	margin-left: 35%;
+
+	right: 0;
+	bottom: 0;
+	height: 100%;
+	width: 90%;
+	min-width: 50%;
+	/* min-height: 50%; */
+}
+.horizontal-list {
+	list-style: none;
+	padding-left: 0px;
+
+	text-align: center;
+	width: 100%;
+}
+.horizontal-list li {
+	display: inline-block;
+	margin: 0px 30px;
+}
+.horizontal-list li a {
+	color: #041c32;
+	text-decoration: none;
+	font-size: 30px;
+	/* transform: perspective(10px) translateZ(0); */
+	weight: bold;
+}
+.horizontal-list li a:hover {
+	color: red;
+
+	transform: perspective(10px) translateZ(0);
+}
+
+.text-center {
+	text-align: center;
+}
+#name-social-container {
+	margin-top: 20vh;
+}
+#my-name {
+	font-size: 4rem;
+	color: #041c32;
+	font-weight: 700;
+	text-align: center;
+	padding-left: 13%;
+}
